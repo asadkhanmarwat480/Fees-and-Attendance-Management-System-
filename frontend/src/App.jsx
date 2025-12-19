@@ -54,6 +54,7 @@ function App() {
                                         />
                                         <Route path="/profile" element={<Profile />} />
                                         <Route path="/" element={<Navigate to="/dashboard" replace />} />
+                                        <Route path="/edit" element={<Navigate to="/dashboard" replace />} />
                                     </Routes>
                                 </Layout>
                             </ProtectedRoute>
